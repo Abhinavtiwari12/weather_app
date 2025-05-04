@@ -1,44 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="Type Your City Name" spellcheck="false">
-            <button><img src="img/search2.jpg" width=""></button>
-        </div>
-        <div class="error">
-            <p>Inviled City name</p>
-        </div>
-        <div class="weather">
-            <img src="img/clear.webp" width="" class="weither-icon">
-            <h1 class="temp">22°C</h1>
-            <h2 class="city">Noida</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="img/humidity.png" width="80%">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>Humidity</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <img src="img/wind.png" width="80%">
-                    <div>
-                        <p class="wind">15km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-<!-- <script>
     const apiKey = '8708a432f5e34ff54ef224eda52db730';
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
@@ -86,8 +45,3 @@
         weatherCheck(searchBox.value);
 
     })
-</script> -->
-
-<script src="script.js"></script>
-</body>
-</html>
